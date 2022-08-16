@@ -1,0 +1,9 @@
+nav {
+  background-color: var(--primary);
+  padding: 1rem 10%;
+}
+.logo {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: rgb(233, 234, 236);
+}

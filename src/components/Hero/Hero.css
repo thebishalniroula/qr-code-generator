@@ -1,0 +1,14 @@
+.hero {
+  height: 50vh;
+  background-color: aliceblue;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.hero .heading {
+  color: var(--heading);
+}
+.hero .description {
+  color: var(--description);
+}

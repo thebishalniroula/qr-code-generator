@@ -1,0 +1,45 @@
+.form {
+  padding: 2rem 10%;
+}
+.form label,
+.form input {
+  display: block;
+}
+.form label {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.form input {
+  padding: 0.75rem;
+  width: 100%;
+  font-size: 1rem;
+  border: 2px solid rgb(130, 123, 123);
+  border-radius: 5px;
+}
+.form input:focus {
+  outline: 1px solid var(--primary);
+  border: 2px solid var(--primary);
+}
+.form button {
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 100%;
+  margin-top: 1rem;
+  background-color: var(--button);
+  color: var(--button-color);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.form select {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+.form select option {
+}
+.form button:hover {
+  background-color: rgb(32, 30, 30);
+}
