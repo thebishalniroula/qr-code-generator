@@ -1,10 +1,11 @@
 .hero {
-  height: 50vh;
+  height: 30vh;
   background-color: aliceblue;
-  padding: 0 10%;
+  padding: 0 15%;
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
+  text-align: center;
 }
 .hero .heading {
   color: var(--heading);

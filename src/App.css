@@ -1,2 +1,14 @@
 .App {
 }
+.qr-container,
+.qr {
+  display: flex;
+}
+@media (max-width: 850px) {
+  .qr-container {
+    flex-direction: column;
+  }
+  .qr {
+    justify-content: center;
+  }
+}
