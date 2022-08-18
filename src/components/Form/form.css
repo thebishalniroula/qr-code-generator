@@ -24,6 +24,9 @@
   outline: 1px solid var(--primary);
   border: 2px solid var(--primary);
 }
+.form .animate {
+  animation: shake 0.3s;
+}
 .form button {
   border: none;
   border-radius: 5px;
@@ -36,16 +39,29 @@
   font-weight: 500;
   cursor: pointer;
 }
-/* .form select {
-  width: 100%;
-  padding: 1rem;
-  margin-top: 1rem;
-  font-size: 1rem;
-} */
 
 .form button:hover {
   background-color: rgb(32, 30, 30);
 }
+
+@keyframes shake {
+  0% {
+    transform: translateX(-2px);
+  }
+  25% {
+    transform: translateX(2px);
+  }
+  50% {
+    transform: translateX(-2px);
+  }
+  75% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(-2px);
+  }
+}
+
 @media (max-width: 850px) {
   .form {
     width: 100%;

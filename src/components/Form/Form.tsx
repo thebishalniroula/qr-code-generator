@@ -13,7 +13,11 @@ const Form = (props: Props) => {
   const handleSubmit = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     e.preventDefault();
     if (!inputRef.current?.value) {
+      inputRef.current?.classList.add("animate");
       inputRef.current?.focus();
+      setTimeout(() => {
+        inputRef.current?.classList.remove("animate");
+      }, 300);
     }
     const url = inputRef.current?.value;
     const size = parseInt(selectRef.current?.value!);

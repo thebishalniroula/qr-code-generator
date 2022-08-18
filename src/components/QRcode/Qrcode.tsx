@@ -1,7 +1,6 @@
 import { QRCode } from "react-qrcode-logo";
 import "./Qrcode.css";
 import * as htmlToImage from "html-to-image";
-import { toPng, toJpeg, toBlob, toPixelData, toSvg } from "html-to-image";
 import { useRef } from "react";
 type Props = {
   link: string | null | undefined;
@@ -14,9 +13,9 @@ const Qrcode = (props: Props) => {
   const imageRef = useRef<HTMLDivElement>(null);
   const downloadImage = () => {
     htmlToImage
-      .toJpeg(imageRef.current as HTMLElement, { quality: 0.95 })
+      .toJpeg(imageRef.current as HTMLElement, { quality: 1 })
       .then(function (dataUrl) {
-        var link = document.createElement("a");
+        const link = document.createElement("a");
         link.download = "qrcode";
         link.href = dataUrl;
         link.click();
