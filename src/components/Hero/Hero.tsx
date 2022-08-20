@@ -7,9 +7,8 @@ const Hero = () => {
       <div className="left">
         <h1 className="heading">#1 QR code generator</h1>
         <p className="description">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
-          numquam distinctio vitae itaque, pariatur vel maiores esse quibusdam
-          architecto a.
+          This is the best free tool available in the internet to generate
+          scanable QR code to share website links and urls.
         </p>
       </div>
     </div>

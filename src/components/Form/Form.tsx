@@ -41,7 +41,7 @@ const Form = (props: Props) => {
         <option value="400">400 X 400</option>
         <option value="500">500 X 500</option>
         <option value="600">600 X 600</option>
-        <option value="700">700 X 700</option>
+        {/* <option value="700">700 X 700</option> */}
       </select>
       <button type="submit" onClick={handleSubmit}>
         Generate QR
