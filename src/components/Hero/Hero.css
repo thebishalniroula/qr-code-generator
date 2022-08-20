@@ -1,7 +1,5 @@
 .hero {
-  height: 30vh;
-  background-color: aliceblue;
-  padding: 0 15%;
+  padding: 5vh 10%;
   display: flex;
   align-items: center;
   justify-content: center;
